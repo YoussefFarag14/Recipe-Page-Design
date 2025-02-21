@@ -1,0 +1,318 @@
+@font-face {
+   font-family: "YoungSerif";
+   src: url('Fonts/YoungSerif-Regular.ttf');
+
+}
+
+@font-face {
+   font-family: "outfit";
+   src: url('Fonts/Outfit-VariableFont_wght.ttf');
+}
+
+.card {
+   margin: 50px auto;
+   width: 900px;
+   height: auto;
+   background-color: white;
+   border-radius: 30px;
+   -webkit-border-radius: 30px;
+   -moz-border-radius: 30px;
+   -ms-border-radius: 30px;
+   -o-border-radius: 30px;
+}
+
+.Img {
+   height: 300px;
+   width: 750px;
+   position: relative;
+   margin-left: 78px;
+   margin-top: 25px;
+   border-radius: 18px;
+   -webkit-border-radius: 18px;
+   -moz-border-radius: 18px;
+   -ms-border-radius: 18px;
+   -o-border-radius: 18px;
+}
+
+.P_img {
+   color: hsl(30, 10%, 34%);
+   margin-bottom: 5px;
+   margin-top: -5px;
+   font-size: 20px;
+   font-family: "outfit", serif;
+}
+
+.imgTitle {
+   margin-left: 78px;
+   font-family: "YoungSerif", serif;
+   color: hwb(20 23% 75%);
+}
+
+body {
+   background-color: hsl(30, 54%, 90%);
+}
+
+.prepSection {
+   padding-top: -20px;
+   margin-left: 73px;
+   display: flex;
+   padding-left: 14px;
+   background-color: hsl(333, 100%, 98%);
+   width: 780px;
+   height: 182px;
+   justify-content: flex-start;
+   align-items: center;
+   text-align: left;
+   padding-bottom: 35px;
+   font-size: 19px;
+   color: hsl(30, 10%, 34%);
+   font-weight: 700;
+   font-family: "outfit", serif;
+   border-radius: 18px;
+   -webkit-border-radius: 18px;
+   -moz-border-radius: 18px;
+   -ms-border-radius: 18px;
+   -o-border-radius: 18px;
+}
+
+.ingSection,
+.instructionSec {
+   padding-left: 36px;
+   background-color: white;
+   justify-content: flex-start;
+   align-items: flex-start;
+   text-align: left;
+   color: hsl(14, 45%, 36%);
+   position: relative;
+   padding-top: -20px;
+}
+
+li {
+   margin-top: -4px;
+   padding: 8px;
+   padding-top: -15px;
+}
+
+.ingSection li {
+   color: hsl(30, 10%, 34%);
+   font-size: 22px;
+   padding: 7px;
+   margin-top: -34px;
+   padding: 24px;
+   font-family: "outfit", serif;
+}
+
+.instructionSec li {
+   width: 770px;
+   color: hsl(30, 10%, 34%);
+   font-size: 23px;
+   padding: 7px;
+   margin-top: -31px;
+   padding: 2px;
+   padding-left: 20px
+}
+
+table {
+   border-spacing: 15px;
+}
+
+.prepSection span {
+   font-size: 25px;
+   margin-left: -19px;
+   color: hsl(332, 51%, 32%);
+   font-family: "outfit", serif;
+}
+
+.Head3,
+.Head4 {
+   margin-left: -25px;
+   font-weight: 700;
+   position: relative;
+   font-size: 33px;
+   font-family: "YoungSerif", serif;
+   letter-spacing: 1.2px;
+   font-weight: 600;
+}
+
+.Head4 {
+   margin-left: -23px;
+   letter-spacing: 1.3px;
+}
+
+p {
+   font-size: 20px;
+   font-family: "outfit", serif;
+   font-weight: 400;
+}
+
+#first,
+#second,
+#third,
+#fourth,
+#fifth,
+#sixth {
+   color: hsl(30, 10%, 34%);
+   font-weight: 700;
+}
+
+.ingSection ul li::marker {
+   color: hsl(14, 45%, 36%)
+}
+
+ol li::marker {
+   color: hsl(14, 45%, 36%);
+   font-weight: 700;
+   font-family: "outfit", serif;
+   font-size: 20px;
+}
+
+.tableCap {
+   font-size: 33px;
+   color: hsl(14, 45%, 36%);
+   padding-left: 50px;
+   font-family: "YoungSerif", serif;
+   letter-spacing: 1.3px;
+}
+
+.Table_paragraph {
+   margin-top: -8px;
+   padding-left: 50px;
+   color: hsl(30, 10%, 34%)
+}
+
+.table {
+   display: grid;
+   width: 850px;
+}
+
+table {
+   font-family: "outfit", serif;
+   justify-content: flex-start;
+   margin-left: 35px;
+   font-size: 19px;
+   border-collapse: collapse;
+   color: hsl(30, 10%, 34%);
+   font-weight: 400;
+}
+
+tr {
+   border-bottom: 1px solid hsl(35, 28%, 82%);
+}
+
+tr td {
+   padding: 10px 50px;
+}
+
+.firstRow,
+.secondRow,
+.thirdRow,
+.fourthRow {
+   color: hsl(14, 45%, 36%);
+   padding-right: 60px;
+   font-weight: 600
+}
+
+.attribution {
+   margin-top: 18px;
+   margin-bottom: 5px;
+   margin-left: 40px;
+   padding-bottom: 18px;
+   font-size: 17px;
+}
+
+@media screen and (max-width: 375px) {
+   .card {
+      width: 100%;
+      margin-left: auto;
+      margin-right: auto;
+      height: auto;
+      padding: 20px;
+      border-radius: 0px;
+      -webkit-border-radius: 0px;
+      -moz-border-radius: 0px;
+      -ms-border-radius: 0px;
+      -o-border-radius: 0px;
+   }
+
+   .Img {
+      height: 140%;
+      width: 111.2%;
+      margin-top: -20px;
+      margin-left: -20px;
+      border-radius: 0px;
+      -webkit-border-radius: 0px;
+      -moz-border-radius: 0px;
+      -ms-border-radius: 0px;
+      -o-border-radius: 0px;
+   }
+
+   .imgTitle {
+      margin-left: 0;
+      text-align: left;
+      font-size: 19px;
+   }
+
+   .prepSection {
+      width: 90%;
+      margin-left: auto;
+      margin-right: auto;
+      font-size: 16px;
+      height: auto;
+      padding: 15px;
+   }
+
+   .ingSection,
+   .instructionSec {
+      padding-left: 0px;
+      font-size: 18px;
+   }
+
+   .instructionSec li {
+      font-size: 16px;
+      padding: 10px;
+      width: 300px;
+   }
+
+   .ingSection li {
+      font-size: 18px;
+      padding: 22px;
+   }
+
+   table {
+      width: 324px;
+      font-size: 16px;
+      margin-left: 0;
+   }
+
+   tr td {
+      padding: 8px;
+   }
+
+   .Head3,
+   .Head4 {
+      font-size: 28px;
+      text-align: left;
+   }
+
+   .tableCap {
+      width: 41%;
+      font-size: 25px;
+      text-align: left;
+      padding-left: 5px;
+   }
+
+   .Table_paragraph {
+      width: 41%;
+      font-size: 18px;
+      text-align: left;
+      margin-right: 55px;
+      padding-left: 5px;
+   }
+
+   .attribution {
+      text-align: left;
+      width: 120%;
+      font-size: 15px;
+      margin: 34px auto 0px;
+   }
+}
